@@ -776,6 +776,7 @@
         'nzd',
         'sgd',
         'usd',
+        'cny',
       ],
     },
     bancontact: {
@@ -856,6 +857,7 @@
         'nzd',
         'sgd',
         'usd',
+        'cny',
       ],
     },
     au_becs_debit: {
