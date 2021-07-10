@@ -36,7 +36,7 @@ func Default() Config {
 		StripePublishableKey: os.Getenv("STRIPE_PUBLISHABLE_KEY"),
 		StripeCountry:        stripeCountry,
 		Country:              "US",
-		Currency:             "eur",
+		Currency:             "cny",
 		PaymentMethods:       PaymentMethods(),
 		ShippingOptions:      inventory.ShippingOptions(),
 	}
