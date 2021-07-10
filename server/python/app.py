@@ -58,7 +58,7 @@ def get_config():
         'stripePublishableKey': os.getenv('STRIPE_PUBLISHABLE_KEY'),
         'stripeCountry': os.getenv('STRIPE_ACCOUNT_COUNTRY') or 'US',
         'country': 'US',
-        'currency': 'eur',
+        'currency': 'cny',
         'paymentMethods': os.getenv('PAYMENT_METHODS').split(', ') if os.getenv('PAYMENT_METHODS') else ['card'],
         'shippingOptions': [
         {
