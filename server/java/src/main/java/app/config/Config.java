@@ -20,7 +20,7 @@ public class Config {
         this.stripePublishableKey = System.getenv("STRIPE_PUBLISHABLE_KEY");
         this.stripeCountry = Optional.ofNullable(System.getenv("STRIPE_ACCOUNT_COUNTRY")).orElse("US");
         this.country = "US";
-        this.currency = "eur";
+        this.currency = "cny";
         this.paymentMethods = Arrays.asList(Optional.ofNullable(System.getenv("PAYMENT_METHODS")).orElse("card").split("\\s*,\\s*"));
         this.shippingOptions = new ArrayList<ShippingOptions>();
 
