@@ -48,7 +48,7 @@ get '/config' do
     'stripePublishableKey': ENV['STRIPE_PUBLISHABLE_KEY'],
     'stripeCountry': ENV['STRIPE_ACCOUNT_COUNTRY'] || 'US',
     'country': 'US',
-    'currency': 'eur',
+    'currency': 'cny',
     'paymentMethods': ENV['PAYMENT_METHODS'] ? ENV['PAYMENT_METHODS'].split(', ') : ['card'],
     'shippingOptions': [
       {
